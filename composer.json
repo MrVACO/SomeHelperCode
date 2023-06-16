@@ -23,6 +23,13 @@
             "MrVaco\\SomeHelperCode\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MrVaco\\SomeHelperCode\\SomeHelperCodeServiceProvider"
+            ]
+        }
+    },
     "config": {
         "sort-packages": true
     },
