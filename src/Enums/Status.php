@@ -4,11 +4,11 @@ declare(strict_types = 1);
 
 namespace MrVaco\SomeHelperCode\Enums;
 
-use MrVaco\SomeHelperCode\Traits\StatusesTrait;
+use MrVaco\SomeHelperCode\Traits\SomeHelperCodeTrait;
 
 enum Status: int
 {
-    use StatusesTrait;
+    use SomeHelperCodeTrait;
     
     case Protected = 0;
     case New = 1;

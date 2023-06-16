@@ -7,13 +7,12 @@ namespace MrVaco\SomeHelperCode\Traits;
 use ArchTech\Enums\Names;
 use ArchTech\Enums\Values;
 
-trait StatusesTrait
+trait SomeHelperCodeTrait
 {
-    use Names;
-    use Values;
+    use Names, Values;
     
     public static function list(): array
     {
-        return array_combine(self::values(), self::names());
+        return array_combine(self::values(), array_map(fn ($item): string => __($item), self::names()));
     }
 }
