@@ -1,0 +1,11 @@
+{
+    "Protected": "Protected",
+    "New": "New",
+    "Draft": "Draft",
+    "Disabled": "Disabled",
+    "Active": "Active",
+    "Self": "Open in the same frame",
+    "Blank": "Open in a tab or new window",
+    "Parent": "Open in the parent frame",
+    "Top": "Open in the full body of the window"
+}
