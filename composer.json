@@ -15,7 +15,8 @@
         }
     ],
     "require": {
-        "php": "^8.0"
+        "php": "^8.0",
+        "archtechx/enums": "^0.3.2"
     },
     "autoload": {
         "psr-4": {
