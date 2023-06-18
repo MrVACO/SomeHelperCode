@@ -11,6 +11,6 @@ class SomeHelperCodeServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {
-        Lang::addJsonPath(__DIR__ . '/Lang');
+        Lang::addJsonPath(__DIR__ . '/../lang');
     }
 }
